@@ -1,6 +1,7 @@
 package com.example.firebasenotificationinbox.service
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.content.Context
 import android.util.Log
 import androidx.annotation.RequiresPermission
@@ -13,9 +14,7 @@ class MyFirebaseMessagingService: FirebaseMessagingService()
 {
     override fun onNewToken(token: String) {
         super.onNewToken(token)
-
-        Log.d("Fcm_token",token)
-
+        Log.d("Fcm_token", token)
     }
 
    @RequiresPermission(Manifest.permission.POST_NOTIFICATIONS)
