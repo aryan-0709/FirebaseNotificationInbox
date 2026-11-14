@@ -1,4 +1,4 @@
-package com.example.firebasenotificationinbox.data.repositiry
+package com.example.firebasenotificationinbox.data.repository
 
 import com.example.firebasenotificationinbox.data.local.NotificationDao
 import com.example.firebasenotificationinbox.data.local.NotificationEntity
