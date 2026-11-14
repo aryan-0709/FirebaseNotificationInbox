@@ -12,7 +12,7 @@ interface NotificationDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertNotification(notification: NotificationEntity)
 
-    @Query("SELECT * FROM notification ORDER BY timestamp DESC")
+    @Query("SELECT * FROM notification ORDER BY receivedAt DESC")
     fun getAllNotifications(): Flow<List<NotificationEntity>>
 
     @Query("UPDATE notification SET isRead = 1 WHERE id = :notificationId")
