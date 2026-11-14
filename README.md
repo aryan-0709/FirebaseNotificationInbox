@@ -323,7 +323,7 @@ If the timestamp is missing, invalid, or non-positive, the app uses the local re
 com.example.firenotificationinbox
 ```
 
-5. Download `google-services.json`.
+5. Download `app/google-services.json`.
 
 ### 2. Add Firebase configuration
 
@@ -370,7 +370,7 @@ cd FirebaseNotificationInbox
 
 ### Configure Firebase
 
-Follow [Firebase Setup](#firebase-setup) and place your `google-services.json` inside the `app/` directory.
+Follow [Firebase Setup](#firebase-setup) and place your `app/google-services.json` inside the `app/` directory.
 
 ### Build a debug APK
 
@@ -453,7 +453,7 @@ Manual results reflect the development test setup. FCM delivery can also depend 
 
 ## Security
 
-- `google-services.json` is excluded from Git using `.gitignore`; add your own Firebase configuration when building locally.
+- `app/google-services.json` is excluded from Git using `.gitignore`; add your own Firebase configuration when building locally.
 - Do not commit FCM registration tokens, signing keys, keystores, passwords, private keys, or other credentials.
 - Keep the release keystore and its passwords backed up in a secure location. They are required to sign future updates with the same signing identity.
 - Do not place secrets in the README or source control.
