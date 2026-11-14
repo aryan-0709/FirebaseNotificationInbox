@@ -16,7 +16,9 @@ object NotificationDatabaseProvider {
                 context.applicationContext,
                 NotificationDatabase::class.java,
                 "notification_database"
-            ).build()
+            )
+                .addMigrations(MIGRATION_1_2)
+                .build()
 
             INSTANCE = instance
             instance
