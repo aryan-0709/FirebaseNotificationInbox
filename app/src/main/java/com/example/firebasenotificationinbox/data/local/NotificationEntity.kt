@@ -12,6 +12,7 @@ data class NotificationEntity(
     val description: String,
     val bannerImageURL: String?,
     val timestamp: Long,
+    val receivedAt: Long = System.currentTimeMillis(),
     val isRead: Boolean=false
 
 )
