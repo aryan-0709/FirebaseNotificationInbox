@@ -19,8 +19,12 @@ The app receives FCM data messages, saves notification history locally, displays
 |---|---|
 | GitHub repository | [aryan-0709/FirebaseNotificationInbox](https://github.com/aryan-0709/FirebaseNotificationInbox) |
 | GitHub profile | [aryan-0709](https://github.com/aryan-0709) |
-| Release | [Firebase Notification Inbox v1.0.0](https://github.com/aryan-0709/FirebaseNotificationInbox/releases/tag/v1.0.0) |
-| Direct APK download | [app-release.apk](https://github.com/aryan-0709/FirebaseNotificationInbox/releases/download/v1.0.0/app-release.apk) |
+## Download APK
+
+**Latest Version:** v1.0.0.1
+[Download Firebase Notification Inbox APK](https://github.com/aryan-0709/FirebaseNotificationInbox/releases/download/v1.0.0.1/app-release.apk)
+
+[View All Releases](https://github.com/aryan-0709/FirebaseNotificationInbox/releases)
 
 ## Table of Contents
 
